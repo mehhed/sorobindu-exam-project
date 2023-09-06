@@ -1,0 +1,428 @@
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/* nav bar css  */
+nav {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 17px 39px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+.menu {
+    padding-left:  38px;
+}
+
+.menu a {
+    color: #010d4c;
+    text-decoration: none;
+    margin: 0px 29px;
+    font-size: 21px;
+    /* font-weight: bold; */
+    position: relative;
+}
+
+.menu a::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    border-radius: 10% !important;
+    background-color: #913bff;
+    position: absolute;
+    left: 0%;
+    top: 104%;
+}
+
+.menu a:hover::after {
+    width: 100%;
+    transition: all .4s;
+}
+
+.menu a:hover {
+    color: #913bff !important;
+    transition: all .2s;
+}
+
+
+.header-contact span {
+    font-size: 21px !important;
+    margin-right: 56px !important;
+    color: #335371 !important;
+}
+
+.header-contact span a {
+    color: #0066ff !important;
+}
+
+.header-contact span a:hover {
+    color: #0043a8 !important;
+    transition: all .2s;
+}
+
+.header-contact .send-massage {
+    padding: 16px 30px;
+}
+
+.header-contact .send-massage:hover {
+    background-color: #0043a8 !important;
+    transition: all .3s;
+}
+
+.logo h1 {
+    font-size: 35px !important;
+    cursor: pointer;
+    
+}
+
+/* nav bar css end  */
+
+/* hero part css  */
+.hero-part{
+    background:url(images/pexels-hasan-albari-1229861.jpg) no-repeat center center;
+    background-size: cover; 
+    padding: 190px 0px ;
+}
+.hero-part h1 {
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #fff;
+}
+
+.hero-part h5 {
+    text-align: center;
+    margin-top: 26px;
+    font-size: 28px;
+    color: #ffffffb8;
+}
+.hero-part a{
+    padding: 11px 43px !important;
+    font-size: 23px !important;
+    margin-top: 32px;
+}
+.hero-part a:hover{
+    background-color: #0043a8 !important;
+    transition: all .2s;
+}
+
+
+
+/* conter area css  */
+.counter-section{
+    padding: 68px 0px;
+    background: #ffffff;
+}
+.counter-inner h1{
+    font-size: 65px !important;
+}
+/* conter area css  end  */
+
+
+/* product section css  */
+.product-section{
+    background: #cecece;
+    padding: 116px 0px;
+}
+.product-section .h1{
+    color: #a19f9f;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+.product-section .h2{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 500;
+}
+.product-box{
+    margin-top: 52px;
+}
+.product-box-inner{
+    width: 465px;
+    height: 526px;
+    background: #fff;
+    margin: 1px 28px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.product-box-inner:hover{
+    transform: translateY(-10px) !important;
+}
+.product-box-inner .product-name{
+    color: #010d4c;
+    transition: all .2s;
+}
+.product-box-inner .product-name:hover{
+    color: #913bff;
+}
+.hover-arrow{
+    height: 0px;
+    width: 0px;
+    background: #9353f4;
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transition: all .4s;
+}
+.product-box-inner:hover .hover-arrow{
+    height: 70px;
+    width: 70px;
+}
+.hover-arrow-icon{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 155;
+}
+.product-box-inner:hover .hover-arrow-icon{
+    visibility: visible;
+    opacity: 1;
+}
+.inner-img{
+    height: 364px;
+    width: 100%;
+    position: relative;
+}
+.inner-img-1{
+    background: url(images/social-media-640.jpg) no-repeat center center;
+    background-size: cover;
+}
+.inner-img-2{
+    background: url(images/iphone-gf8396a49d-640.jpg) no-repeat center center;
+    background-size: cover;
+}
+.inner-img-3{
+    background: url(images/gallery1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.product-box-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 163px;
+    width: 100%;
+}
+/* product section css  end*/
+
+/* FEATURES-cection css  */
+.FEATURES-cection{
+    padding: 114px 0px;
+}
+.FEATURES-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.FEATURES-items-box{
+    height: 370px;
+    width: 359px;
+    background-color: #ffffff;
+    margin: 0px 13px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 100px #c6cfeb4b;
+    transition: all .3s;
+}
+.FEATURES-items-box:hover{
+    transform: translateY(-10px);
+}
+.FEATURES-items-box i {
+    font-size: 45px !important;
+    margin: 45px 0px;
+}
+/* FEATURES-cection css end */
+
+
+/* solution section css  */
+
+/* solution section css end */
+
+
+/* recent-items-section css */
+.recent-items-section{
+    background: #cecece;
+    padding: 120px 0px
+}
+.recent-items-img-1{
+    background: url(images/samsung-g683949647-640.jpg) no-repeat center center;
+    background-size: cover;
+}
+.recent-items-img-2{
+    background: url(images/template-gf0a0d7545-640.png) no-repeat center center;
+    background-size: cover;
+}
+.recent-items-img-3{
+    background: url(images/computer-ge1d934c64-640.jpg) no-repeat center center;
+    background-size: cover;
+}
+.recent-items-img-4{
+    background: url(images/communication-gfe26a0b62-640.jpg) no-repeat center center;
+    background-size: cover;
+}
+.recent-items-img-5{
+    background: url(images/laptop-g05021b253-640.jpg) no-repeat center center;
+    background-size: cover;
+}
+.recent-items-img-6{
+    background: url(images/waves-g56ac8ea4b-640.jpg) no-repeat center center;
+    background-size: cover;
+}
+/* recent-items-section css end*/
+
+
+/* pricing section css  */
+.pricing-section{
+    background: url(images/background6.jpg) ;
+    background-position: 50%;
+    background-size: cover;
+    padding: 115px 0px;
+}
+.simple-pricing-parent{
+    display: flex;
+    justify-content: center;
+}
+.simple-pricing-box{
+    width: 403px;
+    height: 515px;
+    margin: 0px 13px;
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px #f9f9fc;
+}
+.simple-pricing-box a:hover{
+    background-color: #0066ff;
+    color: #ffffff;
+    transition: all .3s;
+}
+.simple-pricing-box-2{
+    background-color:#0066ff;
+}
+.simple-pricing-box-2 a{
+    background-color:#ffffff;
+}
+/* pricing section css end */
+
+
+
+/* designer section css  */
+.designer-section{
+    padding: 0px 415px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    background:url(images/background2.jpg);
+    background-position-y: -100px;
+}
+/* designer section css end */
+
+
+/* join section section css  */
+.join-section{
+    padding: 50px 285px;
+    background: url(images/background4.jpg) no-repeat;
+    background-size: cover;
+    background-position-y: -63px;
+}
+/* join section section css end */
+
+
+/* subscribe section css  */
+.subscribe-section{
+    padding: 90px 280px;
+    background: url(images/background3.jpg) no-repeat bottom  ;
+    background-size: cover;
+}
+.subscribe-button{
+    box-shadow: 0px 0px 40px #f4fbfd;
+}
+/* subscribe section css end */
+
+
+
+/* footer css  */
+footer{
+    background: url(images/background3.jpg) no-repeat bottom  ;
+    background-size: cover;
+    font-size: 20px;
+}
+/* footer css  */
+
+
+/* hover effect  */
+.hovereffect-in-join-button{
+    position: relative;
+    font-weight: 500;
+    transition: all .3s;
+}
+.hovereffect-in-join-button:hover{
+    background-color: #c8c7c8c4 !important;
+    color: black !important;
+}
+.hovereffect-in-join-button::after{
+    content: '';
+    height: 0px ;
+    width: 0px ;
+    border-radius: 50%;
+    background-color: #ffffff75;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+}
+.hovereffect-in-join-button:hover:after{
+    animation: btneffect ease-in-out  .4s;
+}
+@keyframes btneffect{
+    0%{
+        visibility: hidden;
+        opacity: 0;
+        height: 10px;
+        width: 10px;
+    }
+    50%{
+        visibility: visible;
+        opacity: 1;
+        width: 40px;
+        height: 40px;
+    }
+    90%{
+        height: 58px;
+        width: 58px;
+    }
+    100%{
+        visibility: hidden !important;
+        opacity: 0;
+        height: 59px;
+        width: 59px;
+    }
+}
+.hovereffect-in-subcribe-button{
+    position: relative;
+    font-weight: 500;
+    transition: all .3s;
+}
+.hovereffect-in-subcribe-button:hover{
+    background-color: #0043a8  !important;
+}
+.hovereffect-in-subcribe-button::after{
+    content: '';
+    height: 0px ;
+    width: 0px ;
+    border-radius: 50%;
+    background-color: #ffffff35;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+}
+.hovereffect-in-subcribe-button:hover:after{
+    animation: btneffect ease-in-out  .4s;
+}
+
